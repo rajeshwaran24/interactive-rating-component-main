@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*,
+*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html{
+  font-size: 16px;
+}
+:root{
+  
+--clr-Orange: hsl(25, 97%, 53%);
+--clr-White: hsl(0, 0%, 100%);
+--clr-Light-Grey: hsl(217, 12%, 63%);
+--clr-Medium-Grey: hsl(216, 12%, 54%);
+--clr-Dark-Blue: hsl(213, 19%, 18%);
+--clr-Very-Dark-Blue: hsl(216, 12%, 8%);
+--box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+}
+img{
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style:none;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+.card-1{
+  width: 30rem;
+  height: 23rem;
+  background-color: var(--clr-Dark-Blue);
+  border-radius: 12px;
+  margin: auto;
+}
+.star-icon{
+  width: 1.2rem;
+}
+.card-icon{
+  padding: 1rem;
+}
+.question{
+  color: var(--clr-White);
+  padding:0 1rem ;
+}
+.para{
+  color: var(--clr-White);
+  padding:0 1rem ;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.btns{
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: var(--clr-Medium-Grey);
+  color: var(--clr-Very-Dark-Blue);
+  border: none;
+}
+.btns:hover{
+  background-color: rgb(205, 189, 43);
+  cursor: pointer;
+
+
+}
+.btn1{
+  text-align: center;
+  margin: 0.5rem;
+  padding: 2rem;
+  margin: auto;
+}
+.btn-orange,.rate-btn{
+  color: var(--clr-White);
+  background-color: var(--clr-Orange);
+  width: 26rem;
+  height: 2rem;
+  border: none;
+  text-align: center;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.btn-orange:hover{
+  background-color: rgb(252, 143, 10);
+  cursor: pointer;
+}
+
+
+
+.card-2{
+  margin-top: 10rem;
+  width: 30rem;
+  height: 23rem;
+  background-color: var(--clr-Dark-Blue);
+  border-radius: 12px;
+  margin: auto;
+}
+
+.imge{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.img{
+  width: 10rem;
+}
+
+.thankyou{
+text-align: center;
+color: var(--clr-White);
+}
+
+.text{
+  padding: 0 1rem;
+  margin: auto;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--clr-White);
+}
+.small-card{
+  width: 14rem;
+  height: 1.5rem;
+  margin: auto;
+  border-radius: 12px;
+  background-color: var(--clr-Medium-Grey);
+  text-align: center;
+}
+.card-text{
+  color: var(--clr-Orange);
+}
+.hidden{
+  display:none;
+}
+
+
+
+
