@@ -41,7 +41,7 @@ body{
   align-items:center ;
 }
 .card-1{
-  width: 30rem;
+  width: 50%;
   height: 23rem;
   background-color: var(--clr-Dark-Blue);
   border-radius: 12px;
@@ -90,7 +90,7 @@ body{
 .btn-orange,.rate-btn{
   color: var(--clr-White);
   background-color: var(--clr-Orange);
-  width: 26rem;
+  width: 90%;
   height: 2rem;
   border: none;
   text-align: center;
@@ -109,7 +109,7 @@ body{
 
 .card-2{
   margin-top: 10rem;
-  width: 30rem;
+  width: 50%;
   height: 23rem;
   background-color: var(--clr-Dark-Blue);
   border-radius: 12px;
@@ -140,7 +140,7 @@ color: var(--clr-White);
   color: var(--clr-White);
 }
 .small-card{
-  width: 14rem;
+  width: 65%;
   height: 1.5rem;
   margin: auto;
   border-radius: 12px;
@@ -153,7 +153,11 @@ color: var(--clr-White);
 .hidden{
   display:none;
 }
-
-
-
-
+@media screen and (max-width:426px) {
+  .card-1{
+    width: 95%;
+  }
+.card-2{
+  width: 95%;
+}
+}
